@@ -46,6 +46,10 @@
     .container{
         max-width: 947px; /*917+30 zbog paddin-ga*/
     }
+    
+    .left-content{
+        border-right: 1px dotted #9a9a9a;
+    }
 
 }
 
