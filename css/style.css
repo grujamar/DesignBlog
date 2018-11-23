@@ -72,8 +72,8 @@ header .navbar-nav li:hover a{
 .news-header h2{
     line-height: 3rem;
     letter-spacing: -1px;
-/*    max-height: 6rem;
-    overflow: hidden;*/
+    /*    max-height: 6rem;
+        overflow: hidden;*/
 }
 
 .news-header h2 a{
@@ -274,3 +274,32 @@ header .navbar-nav li:hover a{
     border-bottom: 1px dotted #9a9a9a;
 }
 
+/*Comments*/
+.comments h2{
+    color: #2B2B2B;	
+    font-family: MuseoSlab;	
+    font-size: 24px;
+}
+
+.comments .comments-tittle h3,
+.comments .comments-tittle p{
+    color: #515151;
+    font-family: Arial;	
+    font-size: 13px;
+}
+
+.comments h3{
+    font-weight: bold;
+}
+
+.comments .comments-item{
+    border: NaNpx solid rgba(213,213,213,0.54);	
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+
+.comments .comments-item .comments-description p{
+    line-height: 1.4rem;
+    max-height: 11.2rem; /*8 redova*/
+    overflow: hidden;
+}
