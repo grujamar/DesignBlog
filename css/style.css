@@ -235,3 +235,42 @@ header .navbar-nav li:hover a{
     color: #6D6D6D;
 }
 
+/*Single news*/
+
+.single-news-content h3{
+    color: #252525;	
+    font-family: Arial;	
+    font-size: 24px;
+}
+
+.single-news-content h4{
+    color: #434242;	
+    font-family: Arial;	
+    font-size: 17px;
+}
+
+.single-news-content .puzzle {
+    list-style-image: url('../img/rsz_puzzle-piece-128.png');
+}
+
+.single-news-content blockquote{
+    position: relative;
+    display: inline-block;
+    background-color: #EFEFEF;
+    padding: 20px 30px 30px 60px;
+}
+
+.single-news-content blockquote:before{
+    content: '“';
+    font-size: 116px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: -20%;
+    left: 0;
+}
+
+.single-news{
+    border-bottom: 1px dotted #9a9a9a;
+}
+
