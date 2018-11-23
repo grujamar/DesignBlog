@@ -216,3 +216,22 @@ header .navbar-nav li:hover a{
     overflow: hidden;
     text-overflow:ellipsis;
 }
+
+/*FOOTER*/
+.footer{
+    margin-top: 24px;
+    border-top: 1px dotted #9a9a9a;
+}
+
+.footer article p,
+.footer article h5{
+    font-family: Arial;	
+    font-size: 16px;	
+}
+
+.footer article h5{
+    font-weight: bold;
+    text-decoration: none;
+    color: #6D6D6D;
+}
+
