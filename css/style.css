@@ -211,28 +211,45 @@ header .navbar-nav li:hover a{
     border-bottom: 1px solid #ccc; 
 }
 
-.recent-comments a{
+.recent-comments .recent-comment-item .w-25{
     white-space: nowrap;
     overflow: hidden;
     text-overflow:ellipsis;
 }
 
 /*FOOTER*/
-.footer{
-    margin-top: 24px;
-    border-top: 1px dotted #9a9a9a;
+footer{
+    border-top: 1px dotted #8B8A8A;
 }
 
-.footer article p,
-.footer article h5{
-    font-family: Arial;	
-    font-size: 16px;	
+footer ul li,
+footer ul li:first-of-type a,
+footer ul li:first-of-type a:hover
+{
+    font-family: 'Arial-BoldMT';
+    color:#6d6d6d;
+    font-size: 16px;
+
 }
 
-.footer article h5{
-    font-weight: bold;
-    text-decoration: none;
-    color: #6D6D6D;
+footer ul li a, footer ul li a:hover{
+    font-family: 'ArialMT';
+   color:#6d6d6d;
+   font-size: 16px;
+   text-decoration: none;
+   transition: 0.5s ease;
+   display: block;
+}
+
+footer ul li a:hover{
+    padding-left: 5px;
+}
+
+
+footer .footer-about h5 a{
+    text-decoration:none;
+    color:#000;
+    font-family: 'Arial-BoldMT';
 }
 
 /*Single news*/
@@ -302,4 +319,28 @@ header .navbar-nav li:hover a{
     line-height: 1.4rem;
     max-height: 11.2rem; /*8 redova*/
     overflow: hidden;
+}
+
+/**/
+.add-comment{
+    border:1px solid rgba(213,213,213,0.54);
+    background: #f8f8f8;
+}
+
+.add-comment .form-control{
+    border-radius: 0;
+    background: #fff;
+}
+
+.add-comment .form-control:focus{
+    box-shadow: 0 0 1px rgba(0,0,0,0.4);
+    border-color: #ced4da;
+}
+
+.add-comment textarea{
+    resize: none;
+}
+
+.add-comment .btn{
+    border-radius: 0;
 }
